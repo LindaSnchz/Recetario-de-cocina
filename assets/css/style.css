@@ -1,35 +1,37 @@
-.navegadors{
-    list-style-type: none;
-    /* text-align: center; */
-    background-color: rgb(20, 61, 86);
-    display:inline-block;
-    border-radius: 3px;
-    width: 100%; 
-    margin: 0;
-    padding: 0;
-}
 
-li{
-    float: left;
-}
-li a{
-    display: block;
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
-li a:hover{
-    background-color: rgb(139, 185, 185);
-}
-.header{
+header{
     background-color: rgb(11, 52, 70);
     color: white;
 }
-li a:active{
-background-color: lightgrey;
+.nav{
+    background-color: rgb(30, 86, 121);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
 }
 h1{
     text-align: center;
     margin-bottom: auto;
+}
+.recetas{
+    text-align: center;
+}
+.img1{
+    max-width: 40%;
+    height: 300px;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+    margin-right: 30px;
+}
+footer{
+    background-color: rgb(11, 52, 70);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
